@@ -20,7 +20,7 @@ router.get('/login', login)
 
 
 
-//Cerate New Product route
+//Create New Product route
 router.post('/createProduct', authenticate, createProduct);
 
 //all product route
