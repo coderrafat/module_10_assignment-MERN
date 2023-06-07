@@ -20,8 +20,7 @@ router.get('/login', login)
 
 
 
-
-//Cerate New book route
+//Cerate New Product route
 router.post('/createProduct', authenticate, createProduct);
 
 //all product route
@@ -29,10 +28,6 @@ router.get('/products', authenticate, products)
 
 //Delete Product route
 router.delete('/product/delete/:id', authenticate, deleteProduct)
-
-
-
-
 
 
 
